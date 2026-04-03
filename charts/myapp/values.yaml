@@ -21,7 +21,7 @@ redis:
   storage: 1Gi
 
 app:
-  image: hayaboy/app:v2
+  image: hayaboy/app:v4cd
   replicas: 3
   secret:
     mysqlUser: "frodo"
